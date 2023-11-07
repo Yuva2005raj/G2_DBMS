@@ -1,5 +1,5 @@
 # EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
-
+## Date: 04/08/23
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
@@ -23,12 +23,12 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 ```
-create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
+create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
 ```
 
 ### OUTPUT:
 
-![271202265-0ef4f197-c7f6-457f-9c14-99ff64c8e0ea](https://github.com/Yuva2005raj/G2_DBMS/assets/118343998/95acdc13-410a-4378-8738-9f0e43da936b)
+![image](https://github.com/22008539/G2_DBMS/assets/118707617/d4078461-29d3-4714-aa2b-d859b4552fa6)
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -37,8 +37,7 @@ create table student(rollno int,name char(20),age int,address varchar(20),phonen
 alter table student add department char(30);
 ```
 ### OUTPUT:
-
-![271202634-9da807a2-282a-48db-9eac-c2b8998d3403](https://github.com/Yuva2005raj/G2_DBMS/assets/118343998/b169044f-8dfe-4151-b9c4-e07c880c5fec)
+![image](https://github.com/22008539/G2_DBMS/assets/118707617/2c22e52a-f697-4647-8c27-19b5dbb87d15)
 
 
 ### 3) Drop the student table
@@ -47,11 +46,8 @@ alter table student add department char(30);
 ```
 drop table student;
 ```
-
 ### OUTPUT:
-
-![271203708-2d2245a9-b680-4a82-867f-3b37164ddd6f](https://github.com/Yuva2005raj/G2_DBMS/assets/118343998/8d9f805c-9a4b-4c8d-8dcf-e19494704586)
-
+![image](https://github.com/22008539/G2_DBMS/assets/118707617/d0c90400-b82a-4d48-898f-1d18b60f2f8a)
 
 
 ### 4) Delete the student table using truncate keyword
@@ -63,20 +59,20 @@ truncate table student;
 
 ### OUTPUT:
 
-![271203782-490d77b7-d304-47af-b312-72c8967d392a](https://github.com/Yuva2005raj/G2_DBMS/assets/118343998/9c908812-33d0-4d2e-a3dc-bcdca2e767b3)
-
+![image](https://github.com/22008539/G2_DBMS/assets/118707617/a7cf6059-f7e7-4b7f-9db9-8e45b0246324)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
+
 ```
 alter table student rename to mystudent;
 ```
-
 ### OUTPUT:
+![image](https://github.com/22008539/G2_DBMS/assets/118707617/9d838847-3a92-4ec4-a2e6-a98d06085ad0)
 
-![271204102-8e2a54e9-316c-4ad4-955a-db9ba7aec8c0](https://github.com/Yuva2005raj/G2_DBMS/assets/118343998/a7140f4a-6a11-4bfc-84f2-81250d7664d6)
 
-## RESULT:
+### RESULT:
+
 To create a student database and execute DDL queries using SQL is executed successfully.
